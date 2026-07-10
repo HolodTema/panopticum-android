@@ -49,5 +49,5 @@ dependencies {
 
     //Hilt for DI
     implementation(libs.hilt.android)
-    implementation(libs.hilt.android.compiler)
+    ksp(libs.hilt.android.compiler)
 }

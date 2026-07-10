@@ -12,7 +12,7 @@ jetbrainsKotlinJvm = "2.2.10"
 appcompat = "1.7.1"
 material = "1.14.0"
 hilt = "2.60.1"
-ksp = "2.2.10-RC2-2.0.2"
+ksp = "2.2.10-2.0.2"
 kotlinx = "1.11.0"
 
 
@@ -41,6 +41,7 @@ hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-comp
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx" }
 
 
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
@@ -48,3 +49,4 @@ jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrai
 android-library = { id = "com.android.library", version.ref = "agp" }
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
