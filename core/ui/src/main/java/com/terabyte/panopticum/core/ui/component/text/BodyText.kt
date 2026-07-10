@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun BodyLargeText(
+fun LargeBodyText(
     text: String,
     color: Color = MaterialTheme.colorScheme.onBackground,
     modifier: Modifier = Modifier
@@ -21,7 +21,7 @@ fun BodyLargeText(
 }
 
 @Composable
-fun BodyMediumText(
+fun MediumBodyText(
     text: String,
     color: Color = MaterialTheme.colorScheme.onBackground,
     modifier: Modifier = Modifier

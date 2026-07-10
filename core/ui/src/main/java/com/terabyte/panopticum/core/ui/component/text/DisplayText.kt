@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun DisplayLargeText(
+fun LargeDisplayText(
     text: String,
     color: Color = MaterialTheme.colorScheme.onBackground,
     modifier: Modifier = Modifier
@@ -21,7 +21,7 @@ fun DisplayLargeText(
 }
 
 @Composable
-fun DisplayMediumText(
+fun MediumDisplayText(
     text: String,
     color: Color = MaterialTheme.colorScheme.onBackground,
     modifier: Modifier = Modifier

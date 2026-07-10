@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun TitleLargeText(
+fun LargeTitleText(
     text: String,
     color: Color = MaterialTheme.colorScheme.onBackground,
     modifier: Modifier = Modifier
@@ -21,7 +21,7 @@ fun TitleLargeText(
 }
 
 @Composable
-fun TitleMediumText(
+fun MediumTitleText(
     text: String,
     color: Color = MaterialTheme.colorScheme.onBackground,
     modifier: Modifier = Modifier
