@@ -21,4 +21,6 @@ dependencies {
     implementation(libs.retrofit.converter.kotlinx.serialization)
 
     implementation(libs.kotlinx.coroutines.core)
+
+    implementation(libs.kotlinx.serialization.json)
 }
